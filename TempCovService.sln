@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempCovService", "TempCovService\TempCovService.csproj", "{4BB69B51-6B38-48D7-AC18-22FD34E79F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConvServiceForm", "TempConvServiceForm\TempConvServiceForm.csproj", "{FCB7C3B2-2CB0-42B6-8804-7BF4AC2BF31C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4BB69B51-6B38-48D7-AC18-22FD34E79F2E} = {4BB69B51-6B38-48D7-AC18-22FD34E79F2E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BB69B51-6B38-48D7-AC18-22FD34E79F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB69B51-6B38-48D7-AC18-22FD34E79F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB69B51-6B38-48D7-AC18-22FD34E79F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB69B51-6B38-48D7-AC18-22FD34E79F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB7C3B2-2CB0-42B6-8804-7BF4AC2BF31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB7C3B2-2CB0-42B6-8804-7BF4AC2BF31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB7C3B2-2CB0-42B6-8804-7BF4AC2BF31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB7C3B2-2CB0-42B6-8804-7BF4AC2BF31C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09893B26-91F9-4D46-B5B5-D534023E19AD}
+	EndGlobalSection
+EndGlobal
