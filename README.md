@@ -17,5 +17,4 @@ A Windows Forms Application to use the TempCovService service. Check the code at
 5. To convert a Celcius value to Fahrenheit, enter the number in the corresponding textbox, and click on the "C2FBtn" button.
 6. To convert a Fahrenheit value to Celcius, enter the number in the corresponding textbox, and click on the "F2CBtn" button.
 
-**Notes:**
-The project solution was developed as a course project for CSE 445: Distributed Software Development, at ASU.
+
