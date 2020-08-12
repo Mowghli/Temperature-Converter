@@ -1,6 +1,6 @@
 # Temperature-Converter
 
-A Desktop application made using ASP.NET and C#, that can convert the given Celcius value to Fahrenheit, and vice versa. The project solution consists of two parts:
+A website made using ASP.NET and C#, that can convert the given Celcius value to Fahrenheit, and vice versa. The project solution consists of two parts:
 - TempCovService 
 - TemCovServiceForm 
 
